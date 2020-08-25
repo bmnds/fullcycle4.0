@@ -1,0 +1,24 @@
+{
+  "name": "fullcycle4.0",
+  "version": "1.0.0",
+  "description": "Desafio 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmnds/fullcycle4.0.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "docker"
+  ],
+  "author": "b.mendes00@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmnds/fullcycle4.0/issues"
+  },
+  "homepage": "https://github.com/bmnds/fullcycle4.0#readme"
+}
