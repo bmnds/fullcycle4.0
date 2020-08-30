@@ -9,8 +9,8 @@ $ yarn start:dev #iniciará a aplicação na porta 3000 e os scripts serão reco
 
 ### Configurando o SQLite
 ```bash
-$ yarn add sqlite3 typeorm typeorm-seeding
-$ yarn add @types/node -D
+$ yarn add sqlite3 typeorm typeorm-seeding @nestjs/typeorm
+$ yarn add @types/node @types/faker -D
 ```
 
 Altere o arquivo `package.json` para adicionar os scripts:
@@ -32,6 +32,13 @@ $ nest generate module category
 $ nest generate controller category
 $ nest generate service category
 $ yarn typeorm entity:create -n Category
+```
+
+### Preparando a aplicação para execução
+```bash
+$ yarn install
+$ yarn typeorm migration:generate --name Category
+$ yarn seed:config
 ```
 
 ### Tecnologias Utilizadas

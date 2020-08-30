@@ -1,0 +1,7 @@
+**
+
+!src
+!test
+!.env
+!*.json
+!*.lock

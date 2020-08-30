@@ -1,16 +1,27 @@
-
 {
-    "type": "sqlite",
-    "database": "desafio3.sqlite",
-    "synchronize": true,
-    "logging": false,
-    "entities": [
-       "src/entity/**/*.ts"
-    ],
-    "migrations": [
-       "src/migration/**/*.ts"
-    ],
-    "subscribers": [
-       "src/subscriber/**/*.ts"
-    ]
- }
+   "name": "default",
+   "type": "sqlite",
+   "database": "database.sqlite",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "seeds": [
+      "src/seed/**/*{.ts,.js}"
+   ],
+   "factories": [
+      "src/factory/**/*{.ts,.js}"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
