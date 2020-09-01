@@ -6,10 +6,15 @@ name: Desafio3 CI
 on:
   push:
     branches: [ master ]
+#    paths: 
+#      - '/desafio3/**'
   pull_request:
     branches: [ master ]
     paths: 
       - '/desafio3/**'
+defaults:
+  run:
+    working-directory: desafio3
 
 jobs:
   build:
@@ -26,7 +31,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - working-directory: '/desafio3'
     - run: |
         yarn install --if-present
         yarn test
