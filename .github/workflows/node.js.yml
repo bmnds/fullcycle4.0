@@ -3,8 +3,8 @@
 
 name: Desafio4 CI
 
-# Trigger the workflow on push or pull request
-on: [push, pull_request]
+# Trigger the workflow on pull request only
+on: [pull_request]
 defaults:
   run:
     working-directory: desafio4
