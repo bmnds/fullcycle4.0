@@ -6,9 +6,14 @@ Consumir a lista de usuários de  https://reqres.in/api/users e exibir em qualqu
 Transformar a aplicação em container docker e disponibilizar a imagem no DockerHub
 Submeter a url da imagem na página do desafio https://maratona.fullcycle.com.br/desafios/utilizando-reactjs/
 
-###
+### Material de apoio
 https://maratona.fullcycle.com.br/desafios/utilizando-reactjs/
 https://github.com/codeedu/maratona4-esquenta/blob/master/frontend/Dockerfile
+
+### Dependências
+```bash
+$ yarn add react-router-dom axios
+```
 
 ### Como rodar o projeto localmente?
 ```bash

@@ -1,0 +1,38 @@
+#user-list {
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+}
+#user-list table {
+    width: 100%;
+    align-items: center;
+}
+
+#user-list table caption a:nth-child(1) {
+    float: left;
+}
+#user-list table caption a:nth-child(2) {
+    float: right;
+}
+
+#user-list thead tr {
+    background-color: cyan;
+}
+
+#user-list tbody tr:nth-child(2n) {
+    background-color: lightcyan;
+}
+
+#user-list table th:nth-child(2),
+#user-list table th:nth-child(3) {
+    width: 20vw;
+}
+#user-list table th:nth-child(4) {
+    width: 40vw;
+}
+
+#user-list table img {
+    width: 5em;
+    height: 5em;
+    border-radius: 5em;
+}
