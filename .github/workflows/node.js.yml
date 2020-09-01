@@ -29,3 +29,4 @@ jobs:
     - run: |
         yarn install --if-present
         yarn test
+    - working-directory: '/desafio3'
