@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders users list page by default', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Users2/);
+  const linkElement = getByText(/Users/);
   expect(linkElement).toBeInTheDocument();
 });

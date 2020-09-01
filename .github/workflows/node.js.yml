@@ -3,15 +3,8 @@
 
 name: Desafio4 CI
 
-on:
-  push:
-    branches: [ master ]
-#    paths: 
-#      - '/desafio3/**'
-  pull_request:
-    branches: [ master ]
-    paths: 
-      - '/desafio4/**'
+# Trigger the workflow on pull request only
+on: [pull_request]
 defaults:
   run:
     working-directory: desafio4
